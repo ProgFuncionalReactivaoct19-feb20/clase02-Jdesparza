@@ -13,5 +13,5 @@ anios = lambda x: x[0]
 estatura = lambda x: x[1]
 # variable de operacion para las variables anios, estatura
 funciones = lambda x: (anios(x)/12.0, estatura(x)/100)
-# se imprimen los valores
+# se imprimen los valores haciendo uso de map y list
 print(list(map(funciones, datos)))
